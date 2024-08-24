@@ -1,0 +1,19 @@
+def cal(operator,n1,n2):
+    if (operator == 'add'):
+        a=n1+n2
+        print("answer is ",a)
+    elif (operator == 'sub'):
+        a=n1-n2
+        print('answer is ',a)
+    elif (operator == 'mul'):
+        a=n1*n2
+        print('answer is ',a)
+    elif (operator == 'div'):
+        a=n1/n2
+        print('answer is ',a)
+    elif (operator == 'rem'):
+        a=n1%n2
+        print('answer is ',a)
+cal(input("enter the arithmetic operation: ")
+    ,int(input("enter the first number: "))
+    ,int(input("enter the second number: ")))
